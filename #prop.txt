@@ -1,0 +1,41 @@
+find / -name "build.prop" 2>/dev/null
+
+
+/odm/etc/build.prop                 »  S908E.build.odm.etc.prop
+/system/product/etc/build.prop      »  S908E.build.system.product.etc.prop
+/system/build.prop                  »  S908E.build.system.prop
+/system/system_dlkm/etc/build.prop  »  S908E.build.system.system_dlkm.etc.prop
+/system/system_ext/etc/build.prop   »  S908E.build.system.system_ext.etc.prop
+/vendor/odm_dlkm/etc/build.prop     »  S908E.build.vendor.odm_dlkm.etc.prop
+/vendor/build.prop                  »  S908E.build.vendor.prop
+/vendor_dlkm/etc/build.prop         »  S908E.build.vendor_dlkm.etc.prop
+
+
+cp "/odm/etc/build.prop" "/sdcard/S908E.build.odm.etc.prop"
+cp "/system/product/etc/build.prop" "/sdcard/S908E.build.system.product.etc.prop"
+cp "/system/build.prop" "/sdcard/S908E.build.system.prop"
+cp "/system/system_dlkm/etc/build.prop" "/sdcard/S908E.build.system.system_dlkm.etc.prop"
+cp "/system/system_ext/etc/build.prop" "/sdcard/S908E.build.system.system_ext.etc.prop"
+cp "/vendor/odm_dlkm/etc/build.prop" "/sdcard/S908E.build.vendor.odm_dlkm.etc.prop"
+cp "/vendor/build.prop" "/sdcard/S908E.build.vendor.prop"
+cp "/vendor_dlkm/etc/build.prop" "/sdcard/S908E.build.vendor_dlkm.etc.prop"
+
+
+getprop | grep -E "ro.build|ro.product|ro.boot|ro.vendor.build" > "/sdcard/#S908E.prop.txt"
+for /f "tokens=*" %i in ('adb shell "find /sdcard/ -name '*.prop' && echo /sdcard/#S908E.prop.txt"') do adb pull "%i" >nul 2>&1
+
+
+for %i in ("*.prop") do adb push "%i" "/sdcard" >nul 2>&1
+
+
+mv -f "/sdcard/S908E.build.odm.etc.prop" "/odm/etc/build.prop"
+mv -f "/sdcard/S908E.build.system.product.etc.prop" "/system/product/etc/build.prop"
+mv -f "/sdcard/S908E.build.system.prop" "/system/build.prop"
+mv -f "/sdcard/S908E.build.system.system_dlkm.etc.prop" "/system/system_dlkm/etc/build.prop"
+mv -f "/sdcard/S908E.build.system.system_ext.etc.prop" "/system/system_ext/etc/build.prop"
+mv -f "/sdcard/S908E.build.vendor.odm_dlkm.etc.prop" "/vendor/odm_dlkm/etc/build.prop"
+mv -f "/sdcard/S908E.build.vendor.prop" "/vendor/build.prop"
+mv -f "/sdcard/S908E.build.vendor_dlkm.etc.prop" "/vendor_dlkm/etc/build.prop"
+
+
+chmod "0600" "/odm/etc/build.prop" "/system/product/etc/build.prop" "/system/build.prop" "/system/system_dlkm/etc/build.prop" "/system/system_ext/etc/build.prop" "/vendor/odm_dlkm/etc/build.prop" "/vendor/build.prop" "/vendor_dlkm/etc/build.prop"
