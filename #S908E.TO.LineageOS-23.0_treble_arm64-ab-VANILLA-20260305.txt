@@ -1,0 +1,175 @@
+S908E >> LineageOS-23.0_treble_arm64-ab-VANILLA-20260305
+========================================================================================================================
+
+build.system.product.etc.prop >>
+
+========================================================================================================================
+
+ro.product.product.brand=google
+ro.product.product.device=tdgsi_arm64_ab
+ro.product.product.manufacturer=google
+ro.product.product.model=Lineage Treble
+ro.product.product.name=lineage_gsi
+ro.product.build.date=Thu Mar  5 03:21:35 UTC 2026
+ro.product.build.date.utc=1772680895
+ro.product.build.fingerprint=google/lineage_gsi/tdgsi_arm64_ab:16/BP2A.250805.005/eng.dozeof:userdebug/release-keys
+ro.product.build.id=BP2A.250805.005
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+ro.product.build.version.incremental=1772680895
+替代為
+ro.product.product.brand=samsung
+ro.product.product.device=qssi
+ro.product.product.manufacturer=samsung
+ro.product.product.model=SM-S908E
+ro.product.product.name=b0qxxx
+ro.product.build.date=Thu Mar  5 03:21:35 UTC 2026
+ro.product.build.date.utc=1772680895
+ro.product.build.fingerprint=samsung/b0qxxx/qssi:14/UP1A.231005.007/S908EXXSCEYB1:user/release-keys
+ro.product.build.id=UP1A.231005.007
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+ro.product.build.version.incremental=S908EXXSCEYB1
+
+========================================================================================================================
+
+system.prop >> 
+
+========================================================================================================================
+
+ro.product.system.brand=google
+ro.product.system.device=generic
+ro.product.system.manufacturer=google
+ro.product.system.model=mainline
+ro.product.system.name=mainline
+ro.system.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.system.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.system.product.cpu.abilist64=arm64-v8a
+ro.system.build.date=Thu Mar  5 03:21:35 UTC 2026
+ro.system.build.date.utc=1772680895
+ro.system.build.fingerprint=google/lineage_gsi/tdgsi_arm64_ab:16/BP2A.250805.005/eng.dozeof:userdebug/release-keys
+ro.system.build.id=BP2A.250805.005
+ro.system.build.tags=release-keys
+ro.system.build.type=user
+ro.system.build.version.incremental=1772680895
+替代為
+ro.product.system.brand=samsung
+ro.product.system.device=qssi
+ro.product.system.manufacturer=samsung
+ro.product.system.model=SM-S908E
+ro.product.system.name=b0qxxx
+ro.system.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.system.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.system.product.cpu.abilist64=arm64-v8a
+ro.system.build.date=Thu Mar  5 03:21:35 UTC 2026
+ro.system.build.date.utc=1772680895
+ro.system.build.fingerprint=samsung/b0qxxx/qssi:14/UP1A.231005.007/S908EXXSCEYB1:user/release-keys
+ro.system.build.id=UP1A.231005.007
+ro.system.build.tags=release-keys
+ro.system.build.type=user
+ro.system.build.version.incremental=S908EXXSCEYB1
+
+========================================================================================================================
+
+ro.build.fingerprint=google/lineage_gsi/tdgsi_arm64_ab:16/BP2A.250805.005/eng.dozeof:userdebug/release-keys
+ro.build.id=BP2A.250805.005
+ro.build.display.id=BP2A.250805.005 release-keys
+ro.build.version.incremental=1772680895
+替代為
+ro.build.fingerprint=samsung/b0qxxx/b0q:14/UP1A.231005.007/S908EXXSCEYB1:user/release-keys
+ro.build.id=UP1A.231005.007
+ro.build.display.id=UP1A.231005.007.S908EXXSCEYB1
+ro.build.version.incremental=S908EXXSCEYB1
+
+========================================================================================================================
+
+ro.build.type=user
+ro.build.user=dozeoff
+ro.build.host=dozeoff
+ro.build.tags=release-keys
+ro.build.flavor=lineage_gsi-userdebug
+替代為
+ro.build.type=user
+ro.build.user=dpi
+ro.build.host=21DM7621
+ro.build.tags=release-keys
+ro.build.flavor=b0qxxx-user
+
+========================================================================================================================
+
+ro.build.version.base_os=
+替代為
+ro.build.version.base_os=samsung/b0qxxx/b0q:14/UP1A.231005.007/S908EXXUBEXK5:user/release-keys
+ro.product.device_for_attestation=b0q
+ro.product.name_for_attestation=b0qxxx
+ro.product.brand_for_attestation=samsung
+ro.product.model_for_attestation=SM-S908E
+
+========================================================================================================================
+
+ro.build.product=tdgsi_arm64_ab
+# Do not try to parse description or thumbprint
+ro.build.description=lineage_gsi-userdebug 16 BP2A.250805.005 eng.dozeof release-keys
+替代為
+ro.build.product=qssi
+# Do not try to parse description or thumbprint
+ro.build.description=b0qxxx-user 14 UP1A.231005.007 S908EXXSCEYB1 release-keys
+
+========================================================================================================================
+
+build.system_ext.etc.prop >>
+
+========================================================================================================================
+
+ro.product.system_ext.brand=google
+ro.product.system_ext.device=tdgsi_arm64_ab
+ro.product.system_ext.manufacturer=google
+ro.product.system_ext.model=Lineage Treble
+ro.product.system_ext.name=lineage_gsi
+ro.system_ext.build.date=Thu Mar  5 03:21:35 UTC 2026
+ro.system_ext.build.date.utc=1772680895
+ro.system_ext.build.fingerprint=google/lineage_gsi/tdgsi_arm64_ab:16/BP2A.250805.005/eng.dozeof:userdebug/release-keys
+ro.system_ext.build.id=BP2A.250805.005
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.system_ext.build.version.incremental=1772680895
+替代為
+ro.product.system_ext.brand=samsung
+ro.product.system_ext.device=qssi
+ro.product.system_ext.manufacturer=samsung
+ro.product.system_ext.model=SM-S908E
+ro.product.system_ext.name=b0qxxx
+ro.system_ext.build.date=Thu Mar  5 03:21:35 UTC 2026
+ro.system_ext.build.date.utc=1772680895
+ro.system_ext.build.fingerprint=samsung/b0qxxx/qssi:14/UP1A.231005.007/S908EXXSCEYB1:user/release-keys
+ro.system_ext.build.id=UP1A.231005.007
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.system_ext.build.version.incremental=S908EXXSCEYB1
+
+========================================================================================================================
+
+build.vendor.prop >>
+
+========================================================================================================================
+
+ro.product.vendor.brand=samsung
+替代為
+ro.product.device=b0q
+ro.product.vendor.brand=samsung
+
+========================================================================================================================
+
+
+for %i in ("*.prop") do adb push "%i" "/sdcard" >nul 2>&1
+
+mv -f "/sdcard/build.system.product.etc.prop" "/system/product/etc/build.prop"
+mv -f "/sdcard/build.system.prop" "/system/build.prop"
+mv -f "/sdcard/build.system_ext.etc.prop" "/system/system_ext/etc/build.prop"
+mv -f "/sdcard/build.vendor.prop" "/vendor/build.prop"
+
+chmod "0600" "/system/product/etc/build.prop" "/system/build.prop" "/system/system_ext/etc/build.prop" "/vendor/build.prop"
+sed -i 's/resetprop_phh ro.build.user papacu/#resetprop_phh ro.build.user papacu/' /system/bin/phh-on-boot.sh && sed -i 's/resetprop_phh ro.build.host papacu/#resetprop_phh ro.build.host papacu/' /system/bin/phh-on-boot.sh
+sed -i 's/if \[ ! -f \/metadata\/securize_disable \]; then/if false; then/' /system/bin/rw-system.sh
+
+getprop | grep -E "ro.build|ro.product|ro.boot|ro.vendor.build" > /sdcard/#S908E.LOS23.0.EDIT.prop.txt

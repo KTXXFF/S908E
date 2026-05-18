@@ -1,0 +1,23 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.vendor_dlkm.brand=samsung
+ro.product.vendor_dlkm.device=b0q
+ro.product.vendor_dlkm.manufacturer=samsung
+ro.product.vendor_dlkm.model=SM-S908E
+ro.product.vendor_dlkm.name=b0qxxx
+ro.vendor_dlkm.build.date=Thu Feb  6 13:18:54 KST 2025
+ro.vendor_dlkm.build.date.utc=1738815534
+ro.vendor_dlkm.build.fingerprint=samsung/b0qxxx/b0q:12/SP1A.210812.016/S908EXXSCEYB1:user/release-keys
+ro.vendor_dlkm.build.id=SP1A.210812.016
+ro.vendor_dlkm.build.tags=release-keys
+ro.vendor_dlkm.build.type=user
+ro.vendor_dlkm.build.version.incremental=S908EXXSCEYB1
+ro.vendor_dlkm.build.version.release=12
+ro.vendor_dlkm.build.version.release_or_codename=12
+ro.vendor_dlkm.build.version.sdk=31
+# Auto-added by post_process_props.py
+persist.sys.usb.config=mtp
+# end of file
+
