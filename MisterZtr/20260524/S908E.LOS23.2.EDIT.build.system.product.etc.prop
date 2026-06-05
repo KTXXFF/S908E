@@ -1,0 +1,109 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=samsung
+ro.product.product.device=qssi
+ro.product.product.manufacturer=samsung
+ro.product.product.model=SM-S908E
+ro.product.product.name=b0qxxx
+ro.product.build.date=Sun May 24 15:34:32 MSK 2026
+ro.product.build.date.utc=1779626072
+ro.product.build.fingerprint=samsung/b0qxxx/qssi:14/UP1A.231005.007/S908EXXSCEYB1:user/release-keys
+ro.product.build.id=UP1A.231005.007
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+ro.product.build.version.incremental=S908EXXSCEYB1
+ro.product.build.version.release=16
+ro.product.build.version.release_or_codename=16
+ro.product.build.version.sdk=36
+ro.product.build.version.sdk_full=36.1
+####################################
+# from gen_build_prop.py:generate_build_info
+####################################
+# begin build properties
+ro.build.fingerprint=samsung/b0qxxx/b0q:14/UP1A.231005.007/S908EXXSCEYB1:user/release-keys
+ro.build.id=UP1A.231005.007
+ro.build.display.id=UP1A.231005.007.S908EXXSCEYB1
+ro.build.version.incremental=S908EXXSCEYB1
+ro.build.version.sdk=36
+ro.build.version.sdk_full=36.1
+ro.build.version.preview_sdk=0
+ro.build.version.preview_sdk_fingerprint=REL
+ro.build.version.codename=REL
+ro.build.version.all_codenames=REL
+ro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream,Baklava
+ro.build.version.release=16
+ro.build.version.release_or_codename=16
+ro.build.version.release_or_preview_display=16
+ro.build.version.security_patch=2026-05-01
+ro.build.version.base_os=samsung/b0qxxx/b0q:14/UP1A.231005.007/S908EXXUBEXK5:user/release-keys
+ro.product.device_for_attestation=b0q
+ro.product.name_for_attestation=b0qxxx
+ro.product.brand_for_attestation=samsung
+ro.product.model_for_attestation=SM-S908E
+ro.build.version.min_supported_target_sdk=28
+ro.build.date=Sun May 24 15:34:32 MSK 2026
+ro.build.date.utc=1779626072
+ro.build.type=user
+ro.build.user=dpi
+ro.build.host=21DM7621
+ro.build.tags=release-keys
+ro.build.flavor=b0qxxx-user
+ro.lineage.device=generic_arm64
+# ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,
+# use ro.product.cpu.abilist instead.
+ro.product.cpu.abi=arm64-v8a
+ro.product.locale=en-US
+ro.wifi.channels=
+# Do not try to parse description or thumbprint
+ro.build.description=b0qxxx-user 14 UP1A.231005.007 S908EXXSCEYB1 release-keys
+# end build properties
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.product.build.16k_page.enabled=false
+ro.product.page_size=4096
+ro.build.characteristics=device
+ro.product.ab_ota_partitions=system
+ro.product.cpu.pagesize.max=16384
+ro.product.build.no_bionic_page_size_macro=true
+ro.dalvik.vm.enable_uffd_gc=true
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+traced.relay_producer_port=vsock://-1:2010
+# Removed by post_process_props.py because overridden by ro.config.ringtone=Orion.ogg
+#ro.config.ringtone?=Ring_Synth_04.ogg
+# Removed by post_process_props.py because overridden by ro.config.notification_sound=Argon.ogg
+#ro.config.notification_sound?=pixiedust.ogg
+ro.com.android.dataroaming=true
+persist.wm.extensions.enabled=true
+ro.setupwizard.mode=OPTIONAL
+ro.crypto.metadata_init_delete_all_keys.enabled=false
+debug.codec2.bqpool_dealloc_after_stop=1
+persist.wm.extensions.activity_embedding_guard_with_android_15=false
+persist.settings.large_screen_opt.enabled=true
+ro.com.google.clientidbase=android-google
+persist.sys.strictmode.disable=true
+ro.ota.allow_downgrade=true
+ro.control_privapp_permissions=log
+ro.storage_manager.enabled=true
+dalvik.vm.systemuicompilerfilter=speed
+debug.sf.enable_transaction_tracing=false
+setupwizard.theme=glif_v4
+setupwizard.feature.day_night_mode_enabled=true
+ro.lineage.version=23.2-20260524-VANILLA-EXT4-GSI
+ro.lineage.display.version=23-20260524-VANILLA-EXT4-GSI
+ro.lineage.build.version=23.2
+ro.lineage.releasetype=VANILLA
+ro.config.notification_sound=Argon.ogg
+ro.config.alarm_alert=Hassium.ogg
+ro.lineagelegal.url=https://lineageos.org/legal
+media.recorder.show_manufacturer_and_model=true
+ro.support_one_handed_mode=true
+ro.config.ringtone=Orion.ogg
+net.tethering.noprovisioning=true
+ro.com.android.mobiledata=false
+# end of file
+

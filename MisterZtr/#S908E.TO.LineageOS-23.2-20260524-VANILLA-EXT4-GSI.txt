@@ -1,0 +1,254 @@
+S908E >> LineageOS-23.2-20260524-VANILLA-EXT4-GSI
+========================================================================================================================
+
+build.system.product.etc.prop >>
+
+========================================================================================================================
+
+ro.product.product.brand=google
+ro.product.product.device=generic_arm64
+ro.product.product.manufacturer=google
+ro.product.product.model=Generic System
+ro.product.product.name=lineage_arm64_bvN4
+ro.product.build.date=Sun May 24 15:34:32 MSK 2026
+ro.product.build.date.utc=1779626072
+ro.product.build.fingerprint=google/lineage_arm64_bvN4/generic_arm64:16/BP4A.251205.006/eng.andrew:userdebug/release-keys
+ro.product.build.id=BP4A.251205.006
+ro.product.build.tags=release-keys
+ro.product.build.type=userdebug
+ro.product.build.version.incremental=1779626072
+替代為
+ro.product.product.brand=samsung
+ro.product.product.device=qssi
+ro.product.product.manufacturer=samsung
+ro.product.product.model=SM-S908E
+ro.product.product.name=b0qxxx
+ro.product.build.date=Sun May 24 15:34:32 MSK 2026
+ro.product.build.date.utc=1779626072
+ro.product.build.fingerprint=samsung/b0qxxx/qssi:14/UP1A.231005.007/S908EXXSCEYB1:user/release-keys
+ro.product.build.id=UP1A.231005.007
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+ro.product.build.version.incremental=S908EXXSCEYB1
+
+========================================================================================================================
+
+ro.build.fingerprint=google/lineage_arm64_bvN4/generic_arm64:16/BP4A.251205.006/eng.andrew:userdebug/release-keys
+ro.build.id=BP4A.251205.006
+ro.build.display.id=BP4A.251205.006
+ro.build.version.incremental=1779626072
+ro.build.version.sdk=36
+ro.build.version.sdk_full=36.1
+ro.build.version.preview_sdk=0
+ro.build.version.preview_sdk_fingerprint=REL
+ro.build.version.codename=REL
+ro.build.version.all_codenames=REL
+ro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream,Baklava
+ro.build.version.release=16
+ro.build.version.release_or_codename=16
+ro.build.version.release_or_preview_display=16
+ro.build.version.security_patch=2026-05-01
+ro.build.version.base_os=
+ro.build.version.min_supported_target_sdk=28
+ro.build.date=Sun May 24 15:34:32 MSK 2026
+ro.build.date.utc=1779626072
+ro.build.type=userdebug
+ro.build.user=andrew
+ro.build.host=topaz
+ro.build.tags=release-keys
+ro.build.flavor=lineage_arm64_bvN4-userdebug
+替代為
+ro.build.fingerprint=samsung/b0qxxx/b0q:14/UP1A.231005.007/S908EXXSCEYB1:user/release-keys
+ro.build.id=UP1A.231005.007
+ro.build.display.id=UP1A.231005.007.S908EXXSCEYB1
+ro.build.version.incremental=S908EXXSCEYB1
+ro.build.version.sdk=36
+ro.build.version.sdk_full=36.1
+ro.build.version.preview_sdk=0
+ro.build.version.preview_sdk_fingerprint=REL
+ro.build.version.codename=REL
+ro.build.version.all_codenames=REL
+ro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream,Baklava
+ro.build.version.release=16
+ro.build.version.release_or_codename=16
+ro.build.version.release_or_preview_display=16
+ro.build.version.security_patch=2026-05-01
+ro.build.version.base_os=samsung/b0qxxx/b0q:14/UP1A.231005.007/S908EXXUBEXK5:user/release-keys
+ro.product.device_for_attestation=b0q
+ro.product.name_for_attestation=b0qxxx
+ro.product.brand_for_attestation=samsung
+ro.product.model_for_attestation=SM-S908E
+ro.build.version.min_supported_target_sdk=28
+ro.build.date=Sun May 24 15:34:32 MSK 2026
+ro.build.date.utc=1779626072
+ro.build.type=user
+ro.build.user=dpi
+ro.build.host=21DM7621
+ro.build.tags=release-keys
+ro.build.flavor=b0qxxx-user
+
+========================================================================================================================
+
+ro.build.description=lineage_arm64_bvN4-userdebug 16 BP4A.251205.006 eng.andrew release-keys
+替代為
+ro.build.description=b0qxxx-user 14 UP1A.231005.007 S908EXXSCEYB1 release-keys
+
+========================================================================================================================
+
+system.prop >> 
+
+========================================================================================================================
+
+ro.product.system.brand=google
+ro.product.system.device=generic_arm64
+ro.product.system.manufacturer=google
+ro.product.system.model=Generic System
+ro.product.system.name=lineage_arm64_bvN4
+ro.system.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.system.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.system.product.cpu.abilist64=arm64-v8a
+ro.system.build.date=Sun May 24 15:34:32 MSK 2026
+ro.system.build.date.utc=1779626072
+ro.system.build.fingerprint=google/lineage_arm64_bvN4/generic_arm64:16/BP4A.251205.006/eng.andrew:userdebug/release-keys
+ro.system.build.id=BP4A.251205.006
+ro.system.build.tags=release-keys
+ro.system.build.type=userdebug
+ro.system.build.version.incremental=1779626072
+替代為
+ro.product.system.brand=samsung
+ro.product.system.device=qssi
+ro.product.system.manufacturer=samsung
+ro.product.system.model=SM-S908E
+ro.product.system.name=b0qxxx
+ro.system.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.system.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.system.product.cpu.abilist64=arm64-v8a
+ro.system.build.date=Sun May 24 15:34:32 MSK 2026
+ro.system.build.date.utc=1779626072
+ro.system.build.fingerprint=samsung/b0qxxx/qssi:14/UP1A.231005.007/S908EXXSCEYB1:user/release-keys
+ro.system.build.id=UP1A.231005.007
+ro.system.build.tags=release-keys
+ro.system.build.type=user
+ro.system.build.version.incremental=S908EXXSCEYB1
+
+========================================================================================================================
+
+ro.build.fingerprint=google/lineage_arm64_bvN4/generic_arm64:16/BP4A.251205.006/eng.andrew:userdebug/release-keys
+ro.build.id=BP4A.251205.006
+ro.build.display.id=BP4A.251205.006
+ro.build.version.incremental=1779626072
+ro.build.version.sdk=36
+ro.build.version.sdk_full=36.1
+ro.build.version.preview_sdk=0
+ro.build.version.preview_sdk_fingerprint=REL
+ro.build.version.codename=REL
+ro.build.version.all_codenames=REL
+ro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream,Baklava
+ro.build.version.release=16
+ro.build.version.release_or_codename=16
+ro.build.version.release_or_preview_display=16
+ro.build.version.security_patch=2026-05-01
+ro.build.version.base_os=
+ro.build.version.min_supported_target_sdk=28
+ro.build.date=Sun May 24 15:34:32 MSK 2026
+ro.build.date.utc=1779626072
+ro.build.type=userdebug
+ro.build.user=andrew
+ro.build.host=topaz
+ro.build.tags=release-keys
+ro.build.flavor=lineage_arm64_bvN4-userdebug
+替代為
+ro.build.fingerprint=samsung/b0qxxx/b0q:14/UP1A.231005.007/S908EXXSCEYB1:user/release-keys
+ro.build.id=UP1A.231005.007
+ro.build.display.id=UP1A.231005.007.S908EXXSCEYB1
+ro.build.version.incremental=S908EXXSCEYB1
+ro.build.version.sdk=36
+ro.build.version.sdk_full=36.1
+ro.build.version.preview_sdk=0
+ro.build.version.preview_sdk_fingerprint=REL
+ro.build.version.codename=REL
+ro.build.version.all_codenames=REL
+ro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream,Baklava
+ro.build.version.release=16
+ro.build.version.release_or_codename=16
+ro.build.version.release_or_preview_display=16
+ro.build.version.security_patch=2026-05-01
+ro.build.version.base_os=samsung/b0qxxx/b0q:14/UP1A.231005.007/S908EXXUBEXK5:user/release-keys
+ro.product.device_for_attestation=b0q
+ro.product.name_for_attestation=b0qxxx
+ro.product.brand_for_attestation=samsung
+ro.product.model_for_attestation=SM-S908E
+ro.build.version.min_supported_target_sdk=28
+ro.build.date=Sun May 24 15:34:32 MSK 2026
+ro.build.date.utc=1779626072
+ro.build.type=user
+ro.build.user=dpi
+ro.build.host=21DM7621
+ro.build.tags=release-keys
+ro.build.flavor=b0qxxx-user
+
+========================================================================================================================
+
+ro.build.description=lineage_arm64_bvN4-userdebug 16 BP4A.251205.006 eng.andrew release-keys
+替代為
+ro.build.description=b0qxxx-user 14 UP1A.231005.007 S908EXXSCEYB1 release-keys
+
+========================================================================================================================
+
+build.system_ext.etc.prop >>
+
+========================================================================================================================
+
+ro.product.system_ext.brand=google
+ro.product.system_ext.device=generic_arm64
+ro.product.system_ext.manufacturer=google
+ro.product.system_ext.model=Generic System
+ro.product.system_ext.name=lineage_arm64_bvN4
+ro.system_ext.build.date=Sun May 24 15:34:32 MSK 2026
+ro.system_ext.build.date.utc=1779626072
+ro.system_ext.build.fingerprint=google/lineage_arm64_bvN4/generic_arm64:16/BP4A.251205.006/eng.andrew:userdebug/release-keys
+ro.system_ext.build.id=BP4A.251205.006
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=userdebug
+ro.system_ext.build.version.incremental=1779626072
+替代為
+ro.product.system_ext.brand=samsung
+ro.product.system_ext.device=qssi
+ro.product.system_ext.manufacturer=samsung
+ro.product.system_ext.model=SM-S908E
+ro.product.system_ext.name=b0qxxx
+ro.system_ext.build.date=Sun May 24 15:34:32 MSK 2026
+ro.system_ext.build.date.utc=1779626072
+ro.system_ext.build.fingerprint=samsung/b0qxxx/qssi:14/UP1A.231005.007/S908EXXSCEYB1:user/release-keys
+ro.system_ext.build.id=UP1A.231005.007
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.system_ext.build.version.incremental=S908EXXSCEYB1
+
+========================================================================================================================
+
+build.vendor.prop >>
+
+========================================================================================================================
+
+ro.product.vendor.brand=samsung
+替代為
+ro.product.property_source_order=odm,vendor,product,system_ext,system
+ro.product.device=b0q
+ro.product.vendor.brand=samsung
+
+========================================================================================================================
+
+
+for %i in ("*.prop") do adb push "%i" "/sdcard" >nul 2>&1
+
+mv -f "/sdcard/build.system.product.etc.prop" "/system/product/etc/build.prop"
+mv -f "/sdcard/build.system.prop" "/system/build.prop"
+mv -f "/sdcard/build.system_ext.etc.prop" "/system/system_ext/etc/build.prop"
+mv -f "/sdcard/build.vendor.prop" "/vendor/build.prop"
+
+chmod "0600" "/system/product/etc/build.prop" "/system/build.prop" "/system/system_ext/etc/build.prop" "/vendor/build.prop"
+sed -i 's/resetprop_phh ro.build.user nobody/#&/' /system/bin/phh-on-boot.sh && sed -i 's/resetprop_phh ro.build.host android-build/#&/' /system/bin/phh-on-boot.sh
+sed -i 's/if \[ ! -f \/metadata\/securize_disable \]; then/if false; then/' /system/bin/rw-system.sh
+
+getprop | grep -E "ro.build|ro.product|ro.boot|ro.vendor.build" > /sdcard/#S908E.LOS23.2.EDIT.prop.txt
